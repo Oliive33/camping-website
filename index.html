@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icons/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/img/icons/site.webmanifest" />
+    <link rel="mask-icon" href="./assets/img/icons/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>camping website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./assets/img/logo.svg" alt="logo" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Accueil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Tarifs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Événements</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__buttons">
+            <a href="#" class="nav__button-link">Se Connecter</a>
+            <a href="#" class="nav__button-ghost">Découvrir</a>
+          </div>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home__container container">
+          <div class="home__content">
+            <div class="home__data">
+              <h3 class="home__subtitle">L'EXPÉRIENCE D'UNE VIE</h3>
+
+              <h1 class="home__title">
+                Campez n’importe où, <br />
+                n’importe quand...
+              </h1>
+
+              <!-- <p class="home__description">
+                Campez n’importe où, n’importe quand sans soucis et profitez-en.
+              </p> -->
+
+              <a href="#" class="home__button"> EXPLORER NOS DESTINATIONS </a>
+            </div>
+
+            <img src="./assets/img/bird-1.svg" alt="image" class="home__bird-1" />
+            <img src="./assets/img/bird-2.svg" alt="image" class="home__bird-2" />
+          </div>
+
+          <div class="home__images">
+            <img src="./assets/img/img-4.svg" alt="image" class="home__img-4" />
+            <img src="./assets/img/img-3.svg" alt="image" class="home__img-3" />
+            <img src="./assets/img/img-2.svg" alt="image" class="home__img-2" />
+            <img src="./assets/img/img-1.svg" alt="image" class="home__img-1" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="./assets/js/gsap.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
